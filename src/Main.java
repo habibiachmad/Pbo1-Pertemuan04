@@ -4,13 +4,12 @@ public class Main {
         int penuh = 225;
         System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
         System.out.println("Isi Gelas Ketika Penuh :" + penuh + "ml");
+    do{
+        isiGelas++;
+        System.out.println("Sedang mengisi gelas..");
+        System.out.println("Isi Gelas Sekarang : " +penuh+ "ml");
+    }while(isiGelas != penuh);
 
-        while  (isiGelas != penuh)
-        {
-            isiGelas++;
-            System.out.println("Sedang mengisi gelas...");
-            System.out.println("Isi Gelas Sekarang :" + isiGelas + "ml");
-        }
         System.out.println("Finale: Isi Gelas Sekarang : " + isiGelas + "ml");
     }
 }
