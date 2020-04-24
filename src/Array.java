@@ -7,6 +7,6 @@ public class Array {
         mataKuliah[2] = "Rekayasa Perangkat Lunak";
         mataKuliah[3] = "Organisaasi Komputer";
         mataKuliah[4] = "Pemrograman Web 2";
-
+     double
     }
 }
