@@ -1,12 +1,11 @@
 public class Array {
-    public static void main(String[] args) {
+    public static void main(String[] args) { ;
     double[][] nilaiMahasiswa = new double[5][30];
     nilaiMahasiswa[0][0] = 80;
     nilaiMahasiswa[1][0] = 90;
     nilaiMahasiswa[2][0] = 75;
     nilaiMahasiswa[3][0] = 70;
-
-    nilaiMahasiswa[4][0]= nilaiMahasiswa[0][0] * bobot [0] +
+        nilaiMahasiswa[4][0]= nilaiMahasiswa[0][0] * bobot [0] +
             nilaiMahasiswa[1][0] * bobot [1] +
             nilaiMahasiswa[2][0] * bobot [2] +
             nilaiMahasiswa[3][0] * bobot [3];
